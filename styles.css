@@ -244,6 +244,7 @@ header {
   
   footer p {
     color: #fff;
+    font-size: 80%;
   }
   
 
@@ -341,11 +342,7 @@ nav .menu.open {
     opacity: 1;
     transform: translateY(0);
   }
-
-  footer p{
-    font-size: 80%;
-  }
-
+  
   }
 
 
