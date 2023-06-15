@@ -4,6 +4,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  :root{
+    --text-color:rgb(6 88 246);
+  }
+
+  h1,h2,h3{
+    color:var(--text-color);
+  }
   
   /* Global styles */
   body {
@@ -92,7 +100,7 @@ header {
   }
 
   .hero-content img{
-    width: 50%;
+    width: 30%;
     height: auto;
   }
   
@@ -109,7 +117,7 @@ header {
   .btn {
     display: inline-block;
     padding: 10px 30px;
-    background-color: #333;
+    background-color: var(--text-color);
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -161,7 +169,7 @@ header {
     list-style: none;
     display: inline-block;
     padding: 10px 30px;
-    background-color: #333;
+    background-color: var(--text-color);
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -195,11 +203,12 @@ header {
     width: 90%;
     padding: 10px;
     margin-bottom: 20px;
+    border: #333 solid 2px;
   }
   
   .contact button {
     padding: 10px 30px;
-    background-color: #333;
+    background-color: var(--text-color);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -219,13 +228,13 @@ header {
 .social-icons a{
     padding: 5px;
     display: flex;
-    width: 40px;
+    width: 30px;
     height: auto;
     justify-content: center;
     align-items: center;
-    color: #333;
-    border: 2px solid #333;
-    box-sizing: 0 0 0.3rem #333;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    box-sizing: 0 0 0.3rem var(--text-color);
     border-radius: 5px;
     z-index: 1;
     overflow: hidden;
@@ -335,7 +344,6 @@ nav .menu.open {
   nav .menu.open li a {
     color: #fff;
     text-decoration: none;
-    font-size: 24px;
   }
   
   .menu-open nav .menu.open li {
