@@ -342,6 +342,10 @@ nav .menu.open {
     transform: translateY(0);
   }
 
+  footer p{
+    font-size: 80%;
+  }
+
   }
 
 
