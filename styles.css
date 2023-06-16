@@ -30,7 +30,7 @@
   /* Header */
 
 header {
-    background-color: #333;
+    background-color: rgb(6 88 246);
     padding: 20px 20px;
     position: sticky;
     top: 0;
@@ -40,7 +40,7 @@ header {
   .sticky {
     position: fixed;
     width: 100%;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(6 88 246);
   }
   
   nav {
@@ -246,7 +246,7 @@ header {
 }
   /* Footer */
   footer {
-    background-color: #333;
+    background-color: var(--text-color);
     padding: 20px 0;
     text-align: center;
   }
@@ -297,7 +297,7 @@ nav .burger {
   }
   
   .menu-open .burger .line:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
   }
   
   .menu-open .burger .line:nth-child(2) {
@@ -305,9 +305,11 @@ nav .burger {
   }
   
   .menu-open .burger .line:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-4.5px) rotate(-45deg);
   }
 
+
+  
 nav .menu.open {
     display: flex;
     flex-direction: column;
@@ -316,7 +318,7 @@ nav .menu.open {
     left: 0;
     width: 100%;
     height: auto;
-    background-color: #333;
+    background-color: var(--text-color);
     padding: 40px;
     z-index: 999;
   }
@@ -327,9 +329,10 @@ nav .menu.open {
     opacity: 0;
     transform: translateY(-20px);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
   }
   
-  nav .menu.open li:nth-child(1) {
+  nav ul .menu.open li:nth-child(1) {
     transition-delay: 0.2s;
   }
   
