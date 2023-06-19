@@ -12,6 +12,35 @@
   h1,h2,h3{
     color:var(--text-color);
   }
+
+  ::-webkit-scrollbar{
+    height: 0;
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: var(--text-color);
+  }
+
+  .goog-te-banner-frame {
+    display: none !important;
+  }
+  
+  .goog-te-gadget-icon {
+    display: none !important;
+  }
+
+  .goog-te-combo {
+    color: var(--text-color);
+    background-color: var(--text-color);
+  }
+  
+  .goog-te-combo option {
+    color: var(--text-color);
+    background-color: var(--text-color);
+  }
+  
+  
   
   /* Global styles */
   body {
@@ -309,8 +338,6 @@ nav .burger {
     transform: translateY(-4.5px) rotate(-45deg);
   }
 
-
-  
 nav .menu.open {
     display: flex;
     flex-direction: column;
