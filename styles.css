@@ -14,13 +14,34 @@
   }
 
   ::-webkit-scrollbar{
-    height: 0;
-    width: 1rem;
+display: none;
   }
 
   ::-webkit-scrollbar-thumb{
     background: var(--text-color);
   }
+
+  .lan{
+    margin-top: 5rem;
+  }
+
+  .goog-te-combo {
+    padding: 10px;
+    font-size: 100rem;
+    width: 35%;
+  }
+  
+  .goog-te-combo option {
+    font-size: 15px;
+  }
+
+  .goog-te-gadget img {
+    display: none;
+}
+  
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+  display:none;
+}
 
   /* Global styles */
   body {
@@ -116,6 +137,17 @@ header {
   .hero-content h1 {
     font-size: 36px;
     margin-bottom: 20px;
+  }
+
+  .language{
+    background-color: #fff;
+    color: var(--text-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 20%;
+    padding: 1px;
+    margin-bottom: 20px;
+    border: var(--text-color) solid 2px;
   }
   
   .hero-content p {
@@ -282,6 +314,28 @@ header {
 
   /* Responsive styles */
   @media only screen and (max-width: 768px) {
+
+    .lan{
+      margin-top: 5rem;
+    }
+
+    .goog-te-combo {
+      padding: 10px;
+      font-size: 100rem;
+      width: 90%;
+    }
+    
+    .goog-te-combo option {
+      font-size: 15px;
+    }
+  
+    .goog-te-gadget img {
+      display: none;
+  }
+    
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    display:none;
+  }
 
     nav ul.menu {
       display: none;

@@ -30,7 +30,11 @@ menuItems.forEach((menuItem) => {
   });
 });
 
+////google translate/////////////////////////////////////////////
 
-
-///////google translate///////////////////////////////////
-
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ 
+      pageLanguage: 'en',    // Specify the default language of your website
+      layout: google.translate.TranslateElement.InlineLayout.HOTIZONTAL
+    }, 'google_translate_element');
+  }
