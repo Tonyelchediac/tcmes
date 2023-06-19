@@ -22,26 +22,6 @@
     background: var(--text-color);
   }
 
-  .goog-te-banner-frame {
-    display: none !important;
-  }
-  
-  .goog-te-gadget-icon {
-    display: none !important;
-  }
-
-  .goog-te-combo {
-    color: var(--text-color);
-    background-color: var(--text-color);
-  }
-  
-  .goog-te-combo option {
-    color: var(--text-color);
-    background-color: var(--text-color);
-  }
-  
-  
-  
   /* Global styles */
   body {
     font-family: Arial, sans-serif;
